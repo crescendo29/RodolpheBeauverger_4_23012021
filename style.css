@@ -823,11 +823,11 @@ h4 {
 }
 
 .bg-banniere {
-  background-image: url("img/la-chouette-agence-banniere.jpg");
+  background-image: url("img/la-chouette-agence-banniere_resultat.webp");
 }
 
 .bg-presentation {
-  background-image: url("img/presentation_desktop.jpg");
+  background-image: url("img/presentation_desktop_resultat.webp");
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
