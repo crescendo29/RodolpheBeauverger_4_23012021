@@ -780,12 +780,15 @@ h4 {
 }
 
 .tc-white {
-  color: #f3976c !important;
+  color: black !important;
+  background: #f3976c;
+  border-radius: 25px;
+  padding: 0.3em 0.1em;
 }
 
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff !important;
+  color: #070707 !important;
 }
 
 .btn-atomic-tangerine:hover {
