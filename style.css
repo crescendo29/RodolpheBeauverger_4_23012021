@@ -655,7 +655,7 @@ label,
 .btn,
 a {
   font-family: "helvetica";
-  font-weight: 400;
+  font-weight: 700;
   color: #575757 !important;
 }
 
@@ -682,7 +682,8 @@ a {
 }
 
 p {
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .tight-width-whitespace {
