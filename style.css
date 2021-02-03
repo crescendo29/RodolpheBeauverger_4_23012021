@@ -16,9 +16,10 @@ button {
   text-decoration: underline;
 }
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
   cursor: pointer;
   font-weight: bold;
+  color: blue;
 }
 
 #page-loading-blocs-notifaction {
