@@ -12,7 +12,9 @@ button {
   transition: all 0.3s ease-in-out;
   outline: none !important;
 }
-
+.partner {
+  text-decoration: underline;
+}
 a:hover {
   text-decoration: none;
   cursor: pointer;
