@@ -857,16 +857,7 @@ h4 {
     overflow-x: hidden;
     position: relative;
   }
-  .bloc {
-    padding-left: max(
-      0px,
-      constant(safe-area-inset-left)
-    );
-    padding-right: max(
-      0px,
-      constant(safe-area-inset-right)
-    );
-  }
+
   .bloc-group,
   .bloc-group .bloc {
     display: block;
@@ -875,14 +866,6 @@ h4 {
   .bloc-fill-screen .fill-bloc-top-edge,
   .bloc-fill-screen .fill-bloc-bottom-edge {
     padding: 0 20px;
-    padding-left: max(
-      0px,
-      constant(safe-area-inset-left)
-    );
-    padding-right: max(
-      0px,
-      constant(safe-area-inset-right)
-    );
   }
 }
 
