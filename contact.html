@@ -73,30 +73,30 @@
 <div class="bloc bgc-white l-bloc" id="bloc-7">
 	<div class="container bloc-lg">
 		<div class="row">
-			<div class="col-sm-6">
+			<div class="col-sm-6" role="group" aria-labelledby="renseignements">
 				<form id="form_1" novalidate>
 					<div class="form-group">
 						<label for="name">
 							Nom
 						</label>
-						<input id="name" class="form-control" type="text" required />
+						<input id="name" class="form-control" type="text" placeholder="Votre Nom" aria-labelledby="Nom de famill" required />
 					</div>
 					<div class="form-group">
 						<label for="email">
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input id="email" class="form-control" type="email" placeholder="Votre adresse mail" aria-labelledby="adresse email" required />
 					</div>
 					<div class="form-group">
 						<label for="form-control">
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="text" required id="input_504" />
+						<input class="form-control" type="text" placeholder="ex : internet, publicité, bouche à oreille..." aria-labelledby="comment nous avez vous connu" required id="input_504" />
 					</div>
 					<div class="form-group">
 						<label for="message">
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+							Brief de votre projet <br>
+						</label><textarea id="message" class="form-control" rows="4" cols="50" placeholder="Ajoutez autant de détails que nécessaire" aria-labelledby="description projet" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
