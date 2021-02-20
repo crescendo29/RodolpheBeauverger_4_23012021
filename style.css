@@ -28,8 +28,7 @@ a:hover {
   bottom: 0;
   width: 100%;
   z-index: 100000;
-  background: #ffffff url("img/pageload-spinner.gif")
-    no-repeat center center;
+  background: #ffffff url("img/pageload-spinner.gif") no-repeat center center;
 }
 
 .bloc {
@@ -93,11 +92,6 @@ a:hover {
   bottom: 0;
   left: 0;
   right: 0;
-}
-
-.texture-paper::before {
-  background: url("img/texture-paper_resultat.webp");
-  background-size: 280px 280px;
 }
 
 .b-parallax {
@@ -477,8 +471,7 @@ button {
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-bottom-color: rgba(0, 0, 0, 0.1);
   text-shadow: 0 1px 0 rgba(0, 0, 1, 0.1);
-  box-shadow: 0 1px 3px rgba(0, 0, 1, 0.25),
-    inset 0 1px 0 0 rgba(255, 255, 255, 0.15);
+  box-shadow: 0 1px 3px rgba(0, 0, 1, 0.25), inset 0 1px 0 0 rgba(255, 255, 255, 0.15);
 }
 
 .icon-md {
@@ -544,9 +537,7 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
   content: "+";
-  font-family: "HelveticaNeue-Light",
-    "Helvetica Neue Light", "Helvetica Neue", Helvetica,
-    Arial;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
   font-size: 32px;
   width: 50px;
   height: 50px;
@@ -784,8 +775,8 @@ h4 {
 }
 
 .tc-white {
-  color: black !important;
-  background: #f3976c;
+  color: white !important;
+
   border-radius: 25px;
   padding: 0.3em 0.1em;
 }
